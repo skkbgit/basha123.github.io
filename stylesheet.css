@@ -1,16 +1,36 @@
+/* Tag selector */
 body {
   background-color: lightyellow;
+  font-family: Arial, sans-serif;
 }
 
-h1 {
+/* Class selector used on multiple elements */
+.title {
   color: blue;
+  font-size: 40px;
 }
 
-div {
+/* Another class selector */
+.text {
+  font-size: 20px;
+  color: black;
+}
+
+/* Div section styling + box model */
+.section {
   margin: 20px;
-  padding: 10px;
+  padding: 15px;
+  border: 1px solid gray;
 }
 
+/* Link hover effect */
 a:hover {
   color: red;
+}
+
+/* ID selector */
+#myimage {
+  margin: 20px;
+  padding: 5px;
+  border: 3px solid black;
 }
